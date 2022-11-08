@@ -1,13 +1,36 @@
 *{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #E3E4FA;
+    margin: 20px;
 }
 
 #lista-tarefas {
-   flex-direction: column;
+    flex-direction: column;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+h1 {
+    text-align: center;
+}
+
 button {
-    background-color: rgb(0, 174, 255);
-    
+    color: white;
+    background-color: purple;
+    border: none;
+    height: 50px;
+    line-height: 25px;
+    padding: 0 20px;
+    text-transform: none;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 30px;
+    margin-left: 10px;
+
+}
+
+#nome-tarefa {
+    background-color: white;
+    height: 40px;
+    width: 350px;
+    border-radius: 5px;
 }
